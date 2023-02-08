@@ -1,0 +1,335 @@
+.navbar {
+  width: 83%;
+}
+.location {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 100%;
+}
+.line {
+  width: 1px;
+  height: 10px;
+  background-color: black;
+}
+.line1 {
+  width: 1px;
+  height: 5px;
+  margin-right: 2px;
+  background-color: black;
+}
+.line2 {
+  width: 1px;
+  margin-right: 2px;
+  height: 10px;
+  background-color: black;
+}
+.line3 {
+  width: 1px;
+  height: 7.5px;
+  background-color: black;
+}
+.added-number {
+  background-color: orangered;
+  border-radius: 100%;
+  font-size: 9px;
+  width: 15px;
+  text-align: center;
+  color: white;
+  left: 38px;
+  position: absolute;
+}
+.dropdown-menu {
+  border-radius: 2%;
+  font-size: 12px;
+}
+.dropped-content {
+  display: flex;
+  align-items: center;
+  width: 158px;
+}
+.dropdown-menu {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+.pointer {
+  cursor: pointer;
+}
+.main {
+  width: 50%;
+  margin: 50px auto;
+}
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  height: 30px;
+  width: 185px;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+.navigation {
+  background: #f8f8f8;
+  height: 55px;
+}
+.navs-tabs {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 100%;
+  color: black;
+}
+.form-control::placeholder {
+  color: #a2a2a2;
+  opacity: 1;
+}
+.navs-tabs:hover {
+  opacity: 0.5;
+  color: #303030 !important;
+  transition: 0.3s all ease;
+}
+.location:hover > .location-image {
+  opacity: 0.5;
+  color: #303030 !important;
+  transition: 0.3s all ease;
+}
+.phone-hover:hover > .phone-image {
+  opacity: 0.5;
+  color: #303030 !important;
+  transition: 0.3s all ease;
+}
+.basket {
+  width: 28px;
+  text-align: center;
+}
+.basket:hover {
+  background-color: #f8f8f8 !important;
+}
+.three-lines:hover {
+  background-color: #f8f8f8 !important;
+}
+.login-hover:hover {
+  opacity: 0.5;
+  color: #303030 !important;
+  transition: 0.3s all ease;
+}
+.carousel {
+  background-color: #f8f8f8;
+}
+.button-more {
+  background-color: #303030;
+}
+.button-more:hover {
+  background-color: black;
+}
+.dot {
+  width: 8px;
+  height: 8px;
+  border: 1px solid black;
+  border-radius: 100%;
+  cursor: pointer;
+}
+.dots {
+  display: flex;
+  width: 4%;
+  justify-content: space-between;
+  left: 500px;
+  position: absolute;
+  bottom: 16px;
+}
+.products-header {
+  font-family: "Prata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 100%;
+}
+.colcols {
+  height: 230px;
+  width: 16%;
+  cursor: pointer;
+  background-color: #f8f8f8;
+}
+.colcols:hover > img {
+  transform: scale(1.2);
+  transition: 0.2s all ease-in-out;
+}
+.sales-buttons {
+  height: 40px;
+  border: none;
+  min-width: 110px;
+  background-color: #f0f0f0;
+  border-radius: 999px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1;
+  color: #303030;
+}
+.sales-buttons:hover {
+  background-color: #dddddd;
+}
+.arrows {
+  border-radius: 100%;
+  border: 1px solid black;
+  padding: 15px 10px;
+}
+.disabled-arrow {
+  border: 1px solid gray;
+  opacity: 0.7;
+}
+.card {
+  width: 24%;
+  height: 320px;
+  background-image: url(./images/salePic1.png);
+  background-repeat: no-repeat;
+  background-position: 18px 18px;
+  border-radius: 1px !important;
+  display: flex;
+  justify-content: space-between;
+}
+.throughed {
+  text-decoration: line-through;
+  font-size: 13px;
+  color: #8f8f8f;
+}
+.actual-price {
+  font-size: 18px;
+  font-weight: 700;
+}
+.discount {
+  padding: 0px 7px;
+  border-radius: 20px;
+  background-color: #e24b33;
+  color: white;
+  font-size: 12px;
+}
+.card-dots {
+  position: absolute;
+}
+.card-dot {
+  width: 7px;
+  height: 7px;
+}
+.todays-line {
+  width: 80%;
+  background-color: #f0f0f0;
+  height: 1px;
+}
+.timeout {
+  background-color: #f5f5f5 !important;
+}
+.hours {
+  background-color: white;
+}
+.min {
+  background-color: white;
+}
+.sec {
+  background-color: white;
+}
+.firts-color,
+.second-color,
+.third-color,
+.fourth-color {
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+  margin-top: 15px;
+  border: 1px solid black;
+  padding: 3px;
+}
+.firts-color {
+  background-color: #dadada;
+}
+.second-color {
+  background-color: #f1cb7e;
+}
+.third-color {
+  background-color: #ea8c48;
+}
+.fourth-color {
+  background-color: #a7e492;
+}
+.addToBasket {
+  background-color: #303030;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: center;
+  transition: 0.3s all ease;
+}
+.addToBasket:hover {
+  background-color: #505050;
+}
+.buyOneClick {
+  background: none;
+  border: 1px solid #303030;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: center;
+  transition: 0.3s all ease;
+}
+.buyOneClick:hover {
+  background-color: #303030;
+  color: white;
+}
+.SIZE-BTNS {
+  transition: 0.3s all ease;
+}
+.SIZE-BTNS:hover {
+  border: 1px solid #303030 !important;
+}
+
+.hoveredToOpen:hover > .will-opened {
+  display: block !important;
+}
+.hoveredToOpen:hover {
+  background-color: #d3d3d3 !important;
+}
+.hoveredToOpen {
+  cursor: pointer;
+}
+.cursorpointer {
+  cursor: pointer;
+}
+.button-car:hover {
+  background-color: #505050 !important;
+}
+#redHeart {
+  display: none;
+}
+.red {
+  color: #E24B33;
+}
+
+.grey {
+  color: grey;
+  
+}
+#heartBtn{
+    border: none !important;
+    background: none !important;
+}
+.timeout{
+    width: 35%;
+    background-color: #F5F5F5 !important;
+}
+.liltimers{
+    background-color: white !important;
+}
+.dropdown{
+  z-index: 99;
+}
